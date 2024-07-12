@@ -1,0 +1,37 @@
+.docteur {
+    width: 20%;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  .docteur img {
+    width: 50%;
+    height: 40%;
+    border-radius: 20px;
+  }
+  
+  
+  .LienButton button{
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 1.2em;
+    background:#09C699;
+    height: 90px;
+    width: 165px;
+  }
+  button:hover {
+    background: #0dddadf8; /* Couleur de fond au survol */
+  }
+  .LienButton h3 {
+    font-size: 1em;
+   
+  }
+  .LienButton h4 {
+    font-size: 1em;
+   color: #073a2ff8;
+  }
+  
+  

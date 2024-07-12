@@ -1,0 +1,78 @@
+.container-pageBlog{
+    height: 300vh;
+}
+
+.content-Diabete p {
+    font-size: 16px; /* Adjust the font-size to make it more readable */
+    line-height: 1.5;
+    
+  }
+
+  .content-Diabete .ol-number {
+    color: #057055;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .content-Diabete ol p {
+    margin: 10px 0 10px 20px;
+    font-size: 16px; /* Adjust the font-size to make it more readable */
+    line-height: 1.5;
+  }
+  .technoAnddiabete{
+    width: 300px;
+  }
+  .pDiabete p{
+    text-align: center;
+  }
+  .imgPageBlog{
+    width: 40%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.1);
+
+  }
+  
+
+
+
+  .newsletter-signup {
+    margin-top: 40px;
+    padding: 20px;
+    width:60%;
+    background-color: #09C699;
+    text-align: center;
+    margin-left: 300px;
+   height: 15%;
+  }
+  .newsletter-signup h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  .newsletter-signup p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+  }
+
+  .newsletter-signup input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .newsletter-signup button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .newsletter-signup button:hover {
+    background: #007f5f;
+  }

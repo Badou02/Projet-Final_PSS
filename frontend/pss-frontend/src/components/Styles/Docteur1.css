@@ -1,0 +1,120 @@
+.Docteur1-Container {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+  }
+
+.profile-image {
+    width: 70px;
+    height: 70px;
+    border-radius:20px ;
+   
+}
+.sidebar p{
+  font-size: 1.2em;
+  margin-left: 10px;
+  color: #073a2ff8;
+}
+
+.sidebar h2{
+    text-align: left;
+    font-size: 1.6em;
+  }
+
+
+.sidebar{
+  width: 250px;
+  background: #D9D9D9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin:10px ;
+  border-radius: 10px;
+  }
+
+
+.sidebar ul{
+ list-style: none;
+ text-decoration: none;
+ color: black;
+ text-align: left;
+margin-left: -30px;
+}
+.sidebar ul a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+   }
+
+   .logout-button {
+    background: #2fd0a8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: auto;
+  }
+  .logout-button:hover {
+    background: #ff4d4d; /* Couleur de fond au survol */
+  }
+  .separator{
+    margin: 5px 0;
+  }
+
+
+
+
+  .content {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+  overflow-y: auto;
+}
+
+.content section {
+  margin-bottom: 30px;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+  
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background: #2fd0a8;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#blogs ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+#blogs li {
+  background: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#blogs h2{
+  margin-right: 300px;
+}

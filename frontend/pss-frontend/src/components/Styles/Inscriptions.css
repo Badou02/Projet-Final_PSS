@@ -1,0 +1,71 @@
+.incription-container{
+display: flex;
+justify-content: center;
+}
+h1{
+  text-align: center;
+}
+.experience{
+  height:  50%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: calc(50% - 10px); /* ajuster la largeur des inputs pour ajouter de l'espace */
+}
+.inscription-logo{
+  width: 15%;
+  height:  20%;
+  border-radius: 10px;
+
+}
+.inscriptionsForm{
+  
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100vh;
+  text-align: center;
+  height:  100vh;
+  margin: 100px;/* centrer horizontalement */
+  padding: 20px; /* ajouter du padding pour un peu d'espace intérieur */
+  border-radius: 10px; /* coins arrondis */
+ 
+}
+
+.inscriptionsForm button {
+  font-size: 16px;
+  background-color: #09C699;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 50%;
+  border: none;
+}
+
+button:hover {
+  background: #0dddadf8;
+}
+
+.inscriptionsForm input {
+  height:  50%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: calc(50% - 10px); /* ajuster la largeur des inputs pour ajouter de l'espace */
+}
+.select{
+  height:  50%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: calc(50% - 10px); /* ajuster la largeur des inputs pour ajouter de l'espace */
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between; /* espacer les inputs dans une ligne */
+  margin-bottom: 10px; /* ajouter de l'espace entre les lignes */
+}

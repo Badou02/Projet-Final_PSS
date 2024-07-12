@@ -1,0 +1,29 @@
+.pharmacie {
+    width: 30%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .pharmacie img {
+    width: 80%;
+    height: auto;
+  }
+  
+  .pharmacie h3 {
+    margin-top: 10px;
+  }
+  
+  .pharmacie button {
+    background: #32e4baf8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pharmacie button:hover {
+    background: #0dddadf8;
+  }
+  

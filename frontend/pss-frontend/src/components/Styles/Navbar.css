@@ -1,0 +1,133 @@
+.logo{
+width: 50px;
+height: 50px;
+border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: #09C699;
+    height: 70px;
+    padding: 0 20px;
+   
+}
+nav ul {
+    display: flex ;
+    gap: 20px; /* Espace entre les éléments */
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+display :block;
+text-decoration: none;
+color: white;
+padding: 5px 20px;
+border-radius: 10px;
+background: #32e4baf8;
+border-radius:10px;
+transition: background 0.3s ease; /* Transition pour l'effet de survol */
+}
+
+nav ul li a:hover {
+    background: #0dddadf8; /* Couleur de fond au survol */
+}
+
+.logo-container {
+    flex-shrink: 0;
+    margin-bottom:10px ; 
+ 
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+
+nav .menu{
+    display: none;
+    position: absolute;
+    top: 0,75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+  }
+  
+  nav .menu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: #fff;
+  }
+
+@media(max-width:480px) {
+    nav .menu {
+        display: flex;
+    }
+        
+    nav 
+       { flex-direction: column;
+         align-items: start;}
+    
+    
+    nav ul {
+         display: none; 
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+    nav ul.open{
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center ;
+    }
+   nav ul li a {
+    margin: 0.2rem 0.5rem;
+   }
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input-container .icon-navbar {
+    position: absolute;
+    left: 10px;
+    color: #ccc;
+  }
+  
+  .search-input-container input {
+    padding: 5px 5px 5px 30px; /* Padding left to accommodate the icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-form button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #32e4baf8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .search-form button:hover {
+    background-color: #0dddadf8;
+  }

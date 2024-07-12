@@ -1,0 +1,38 @@
+
+.blog-container {
+    margin-top: 20px;
+  }
+  
+  .blog-recent-posts {
+    margin-top: 20px;
+  }
+  
+  .blog-card {
+    margin-bottom: 20px;
+  }
+  
+  .recent-posts-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  .recent-posts-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-posts-list li {
+    margin-bottom: 10px;
+  }
+  
+  .recent-posts-list a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .recent-posts-list a:hover {
+    text-decoration: underline;
+  }
+  

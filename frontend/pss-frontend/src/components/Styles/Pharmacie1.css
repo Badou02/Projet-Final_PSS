@@ -1,0 +1,39 @@
+.Pharmacie1-contener h1{
+    text-align: center; /* Centre le texte */
+    background: #09C699;
+    border-radius: 20px;
+    padding: 1px;
+    width: 50%;
+    margin: auto; /* Centre horizontalement */
+    color: white; /* Couleur du texte */
+    font-size: 1.9em; /* Taille de la police */
+}
+
+.Aimecessair{
+    width: 30% ;
+    height: 50%;
+}
+
+.Pharmacie1-contener h2{
+    text-align: center; /* Centre le texte */
+    background: #09C699;
+    
+    padding: 1px;
+    width: 20%;
+    margin: auto; /* Centre horizontalement */
+    color: white; /* Couleur du texte */
+    font-size: 1.5em; /* Taille de la police */
+}
+.Pharmacie1-contener p{
+    text-align: center;
+}
+
+.Pharmacie1-contener h3{
+text-align: left;
+margin-left: 20px;
+}
+
+.ItinéraireAimecessaire{
+    width: 90%;
+    height: 90%;
+}

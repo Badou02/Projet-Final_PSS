@@ -1,0 +1,38 @@
+
+.card {
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.bouton-blog {
+    background-color: #09C699;
+    width: 150px;
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+.connexion-button:hover {
+    background: #0dddadf8; 
+  }
